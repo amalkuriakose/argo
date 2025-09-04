@@ -1,4 +1,4 @@
-` helm -n argo install argocd argo/argo-cd -f values.yaml`
+`helm -n argo install argocd argo/argo-cd -f values.yaml`
 
 `kubectl port-forward service/argocd-server -n argo 8080:443`
 
